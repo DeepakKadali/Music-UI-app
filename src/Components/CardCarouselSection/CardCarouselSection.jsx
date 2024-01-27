@@ -1,24 +1,24 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import Card from '../Card/Card';
+import Card from "../Card/Card";
 
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import './CardCarouselSection.css';
+import "./CardCarouselSection.css";
 
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation } from "swiper/modules";
 
 const CardCarouselSection = ({ name, songsData }) => {
   return (
     <div className="swiper">
       <Swiper
-        slidesPerView={10}
+        slidesPerView={6}
         spaceBetween={10}
         navigation={{
-          nextEl: `#${name.split(' ').join('')}-right`,
-          prevEl: `#${name.split(' ').join('')}-left`,
+          nextEl: `#${name.split(" ").join("")}-right`,
+          prevEl: `#${name.split(" ").join("")}-left`,
         }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
@@ -41,13 +41,13 @@ const CardCarouselSection = ({ name, songsData }) => {
 
       <button
         className="left-btn slider-btn"
-        id={`${name.split(' ').join('')}-left`}
+        id={`${name.split(" ").join("")}-left`}
       >
         <img src="./leftBtn.png" alt="Left Button" />
       </button>
       <button
         className="right-btn slider-btn"
-        id={`${name.split(' ').join('')}-right`}
+        id={`${name.split(" ").join("")}-right`}
       >
         <img src="./rightBtn.png" alt="Right Button" />
       </button>
