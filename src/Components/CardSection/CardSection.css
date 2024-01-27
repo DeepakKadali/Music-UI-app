@@ -1,0 +1,20 @@
+.section-container {
+  margin: 20px;
+}
+
+.text-container {
+  color: var(--css-white);
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse-btn {
+  color: var(--css-primary);
+  cursor: pointer;
+}
+
+.card-container {
+  margin: 20px 5px;
+}

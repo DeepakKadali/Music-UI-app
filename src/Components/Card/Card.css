@@ -1,0 +1,35 @@
+.card-box {
+  width: 159px;
+  height: 232px;
+  color: var(--css-white);
+}
+
+.card {
+  background-color: var(--css-white);
+  height: 205px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-image img {
+  height: 170px;
+  width: 100%;
+}
+
+.card-text {
+  background-color: var(--css-black);
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 71px;
+  height: 23px;
+  padding: 4px, 8px, 4px, 8px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.title {
+  margin-top: 6px;
+  font-size: 14px;
+}

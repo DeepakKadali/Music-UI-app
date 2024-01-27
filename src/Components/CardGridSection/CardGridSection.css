@@ -1,0 +1,7 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 45px;
+  column-gap: 24.2px;
+  padding: 0 16px;
+}
